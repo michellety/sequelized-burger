@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(238, 225, 236);
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* line-height: 45px; */
+    
+}
+
+.header {
+    min-height: 200px;
+}
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1em;
+    text-align: center;  
+    background-image: url("/assets/img/burger-cheese.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;  
+    border: 2px dotted rgb(106, 106, 238);   
+};
+
+ul {
+    list-style-type: none; 
+     
+};
+
+li {
+    padding: 15px;
+    
+}
+
+button {
+    border: 2px solid rgb(0, 9, 128);
+    background-color: pink;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(0, 9, 128);
+    color: pink;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
